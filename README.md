@@ -45,4 +45,11 @@ Guessed letters: p, z
 Guess a letter : y
 
  Good job!!! 'y' is in the word.
+
+Word to guess: p y _ _ _ _
+Attempts left: 5
+Guessed letters: p, z, y
+Guess a letter : y
+
+ Good job!!! 'y' is in the word.
 ```
