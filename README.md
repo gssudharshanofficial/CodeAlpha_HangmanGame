@@ -15,3 +15,34 @@ The objective of this task is to create a simple, interactive console game where
 * **`random` Module:** To choose a secret word from the list randomly.
 * **Control Flow:** `while` loops for handling game iterations and `if-else` blocks for conditional logic.
 * **Data Structures:** Lists for keeping track of guessed letters and strings for rendering the hidden word structure (`_ _ _`).
+
+## 🎮 Sample Gameplay Example
+Here is an example of how the game plays out directly inside the terminal window:
+
+```text
+====================================
+      Welcome to Hangman Game!      
+====================================
+Try to guess the secret word.
+
+Word to guess: _ _ _ _ _ _
+Attempts left: 6
+Guessed letters: None
+Guess a letter : p
+
+ Good job!!! 'p' is in the word.
+
+Word to guess: p _ _ _ _ _
+Attempts left: 6
+Guessed letters: p
+Guess a letter : z
+
+ Oops!!! 'z' is not in the word.
+
+Word to guess: p _ _ _ _ _
+Attempts left: 5
+Guessed letters: p, z
+Guess a letter : y
+
+ Good job!!! 'y' is in the word.
+```
