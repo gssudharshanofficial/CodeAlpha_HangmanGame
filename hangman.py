@@ -1,6 +1,6 @@
 import random
 def play_hangman():
-    word_list = ["python", "codealpha", "internship", "programer", "developer"]
+    word_list = ["python", "codealpha", "internship", "programmer", "developer"]
     chosen_word = random.choice(word_list)
     guessed_letters = []
     incorrect_attempts_left = 6
