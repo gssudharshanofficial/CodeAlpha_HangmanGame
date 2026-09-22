@@ -6,7 +6,7 @@ A classic text-based **Hangman Game** built using Python. This project was devel
 The objective of this task is to create a simple, interactive console game where the player attempts to guess a hidden word one letter at a time within a limited number of attempts.
 
 ### Key Features
-* **Word Bank:** Randomly selects from a predefined list of programming terms (`python`, `codealpha`, `internship`, `programer`, `developer`).
+* **Word Bank:** Randomly selects from a predefined list of programming terms (`python`, `codealpha`, `internship`, `programmer`, `developer`).
 * **Attempt Tracking:** Provides the user with exactly **6 incorrect attempts** before the game ends.
 * **Input Validation:** Filters out multi-character inputs, numbers, and symbols.
 * **State Memory:** Tracks and displays previously guessed letters to avoid redundant inputs.
